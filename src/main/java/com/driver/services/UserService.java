@@ -1,7 +1,7 @@
 package com.driver.services;
 
 
-import com.driver.model.User;
+import org.apache.tomcat.jni.User;
 
 public interface UserService {
 

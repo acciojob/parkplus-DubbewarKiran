@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User updatePassword(Integer userId, String password) {
+    public org.apache.tomcat.jni.User updatePassword(Integer userId, String password) {
        User user = userRepository4.findById(userId).get();
        user.setPassword(password);
        return userRepository4.save(user);
